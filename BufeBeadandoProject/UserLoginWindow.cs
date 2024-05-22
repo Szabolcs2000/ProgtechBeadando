@@ -32,7 +32,10 @@ namespace BufeBeadandoProject
 
         private void BTN_Reg_Click(object sender, EventArgs e)
         {
-
+            RegWindow regWindow = new RegWindow();
+            regWindow.FormClosed += (s, args) => this.Show();
+            regWindow.Show();
+            this.Hide();
         }
 
         private void BTN_Admin_Click(object sender, EventArgs e)
@@ -41,6 +44,11 @@ namespace BufeBeadandoProject
             adminLoginWindow.FormClosed += (s, args) => this.Show();
             adminLoginWindow.Show();
             this.Hide();
+        }        
+
+        private void BTN_UserExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

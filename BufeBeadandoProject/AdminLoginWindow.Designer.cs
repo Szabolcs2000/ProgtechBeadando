@@ -36,6 +36,7 @@
             this.BTN_AdminLogin = new System.Windows.Forms.Button();
             this.TB_AdminPW = new System.Windows.Forms.TextBox();
             this.TB_AdminName = new System.Windows.Forms.TextBox();
+            this.BTN_AdminExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LB_AdminWindowTitle
@@ -107,11 +108,22 @@
             this.TB_AdminName.Size = new System.Drawing.Size(100, 20);
             this.TB_AdminName.TabIndex = 10;
             // 
+            // BTN_AdminExit
+            // 
+            this.BTN_AdminExit.Location = new System.Drawing.Point(641, 34);
+            this.BTN_AdminExit.Name = "BTN_AdminExit";
+            this.BTN_AdminExit.Size = new System.Drawing.Size(104, 33);
+            this.BTN_AdminExit.TabIndex = 17;
+            this.BTN_AdminExit.Text = "Kilépés";
+            this.BTN_AdminExit.UseVisualStyleBackColor = true;
+            this.BTN_AdminExit.Click += new System.EventHandler(this.BTN_AdminExit_Click);
+            // 
             // AdminLoginWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BTN_AdminExit);
             this.Controls.Add(this.BTN_User);
             this.Controls.Add(this.LB_User);
             this.Controls.Add(this.LB_AdminPW);
@@ -137,5 +149,6 @@
         private System.Windows.Forms.Button BTN_AdminLogin;
         private System.Windows.Forms.TextBox TB_AdminPW;
         private System.Windows.Forms.TextBox TB_AdminName;
+        private System.Windows.Forms.Button BTN_AdminExit;
     }
 }

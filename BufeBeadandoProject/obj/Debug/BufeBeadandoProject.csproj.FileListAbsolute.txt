@@ -10,3 +10,4 @@ D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBea
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.pdb
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.UserLoginWindow.resources
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminLoginWindow.resources
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.RegWindow.resources
