@@ -59,7 +59,6 @@
       <DependentUpon>RegWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="Soup\BeanSoup.cs" />
-    <Compile Include="Soup\Soup.cs" />
     <Compile Include="UserLoginWindow.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -6,12 +6,20 @@ using System.Threading.Tasks;
 
 namespace BufeBeadandoProject.Soup
 {
-    internal class BeanSoup : Soup
+    internal class BeanSoup : ISoup
     {
-        public BeanSoup(string name, int price) : base(name, price)
+        public BeanSoup()
         {
-            name = "Bableves";
-            price = 500;
         }
-    }
+
+        public void Serve()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override string ToString()
+        {
+            return "Bableves";
+        }
+    }   
 }
