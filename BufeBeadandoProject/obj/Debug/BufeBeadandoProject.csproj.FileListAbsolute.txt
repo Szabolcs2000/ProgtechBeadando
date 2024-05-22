@@ -15,7 +15,6 @@ D:\- Egyetem\Progtech\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.exe.conf
 D:\- Egyetem\Progtech\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.exe
 D:\- Egyetem\Progtech\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.pdb
 D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.AssemblyReference.cache
-D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.SuggestedBindingRedirects.cache
 D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminLoginWindow.resources
 D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.Properties.Resources.resources
 D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.RegWindow.resources
@@ -24,3 +23,4 @@ D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.G
 D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.CoreCompileInputs.cache
 D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.exe
 D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.pdb
+D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.SoupTest.resources

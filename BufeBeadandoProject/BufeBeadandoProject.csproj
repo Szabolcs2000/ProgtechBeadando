@@ -58,7 +58,16 @@
     <Compile Include="RegWindow.Designer.cs">
       <DependentUpon>RegWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="SoupTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoupTest.Designer.cs">
+      <DependentUpon>SoupTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Soup\BeanSoup.cs" />
+    <Compile Include="Soup\BeanSoupFactory.cs" />
+    <Compile Include="Soup\ISoup.cs" />
+    <Compile Include="Soup\ISoupFactory.cs" />
     <Compile Include="UserLoginWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +90,9 @@
     </Compile>
     <EmbeddedResource Include="RegWindow.resx">
       <DependentUpon>RegWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoupTest.resx">
+      <DependentUpon>SoupTest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserLoginWindow.resx">
       <DependentUpon>UserLoginWindow.cs</DependentUpon>

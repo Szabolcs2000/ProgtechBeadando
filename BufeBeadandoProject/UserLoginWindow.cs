@@ -50,5 +50,13 @@ namespace BufeBeadandoProject
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SoupTest soupTestWindow = new SoupTest();
+            soupTestWindow.FormClosed += (s, args) => this.Show();
+            soupTestWindow.Show();
+            this.Hide();
+        }
     }
 }

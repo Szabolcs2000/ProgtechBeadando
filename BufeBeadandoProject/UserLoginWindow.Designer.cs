@@ -39,6 +39,7 @@
             this.LB_Admin = new System.Windows.Forms.Label();
             this.BTN_Admin = new System.Windows.Forms.Button();
             this.BTN_UserExit = new System.Windows.Forms.Button();
+            this.TestButtontoSoupTest = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LB_Cim
@@ -140,11 +141,23 @@
             this.BTN_UserExit.UseVisualStyleBackColor = true;
             this.BTN_UserExit.Click += new System.EventHandler(this.BTN_UserExit_Click);
             // 
+            // TestButtontoSoupTest
+            // 
+            this.TestButtontoSoupTest.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.TestButtontoSoupTest.Location = new System.Drawing.Point(665, 147);
+            this.TestButtontoSoupTest.Name = "TestButtontoSoupTest";
+            this.TestButtontoSoupTest.Size = new System.Drawing.Size(75, 23);
+            this.TestButtontoSoupTest.TabIndex = 11;
+            this.TestButtontoSoupTest.Text = "TestButtontoSoupTest";
+            this.TestButtontoSoupTest.UseVisualStyleBackColor = false;
+            this.TestButtontoSoupTest.Click += new System.EventHandler(this.button1_Click);
+            // 
             // UserLoginWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.TestButtontoSoupTest);
             this.Controls.Add(this.BTN_UserExit);
             this.Controls.Add(this.BTN_Admin);
             this.Controls.Add(this.LB_Admin);
@@ -176,6 +189,7 @@
         private System.Windows.Forms.Label LB_Admin;
         private System.Windows.Forms.Button BTN_Admin;
         private System.Windows.Forms.Button BTN_UserExit;
+        private System.Windows.Forms.Button TestButtontoSoupTest;
     }
 }
 
