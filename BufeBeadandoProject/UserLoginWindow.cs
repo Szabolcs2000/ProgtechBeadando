@@ -7,14 +7,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace BufeBeadandoProject
 {
     public partial class UserLoginWindow : Form
-    {        
+    {
+        private List<User> UserDatas = new List<User>();
+        private void Reader(string filename)
+        {
+            StreamReader sr = new StreamReader(filename);
+            while (!sr.EndOfStream)
+            {
+                User newUser = new User();
+                string line = sr.ReadLine();
+                string[] lines = line.Split(';');
+                newUser.Username = lines[0];
+                newUser.Password = lines[1];
+                UserDatas.Add(newUser);
+            }
+            sr.Close();
+        }
+
+
         public UserLoginWindow()
         {            
-            InitializeComponent();                       
+            InitializeComponent();
+            TB_UserPW.UseSystemPasswordChar = true;
         }
 
         private static UserLoginWindow instance;
@@ -51,12 +71,25 @@ namespace BufeBeadandoProject
             Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BTN_UserLogin_Click(object sender, EventArgs e)
         {
-            SoupTest soupTestWindow = new SoupTest();
-            soupTestWindow.FormClosed += (s, args) => this.Show();
-            soupTestWindow.Show();
-            this.Hide();
+            Reader("./Users.csv");
+            foreach (User user in UserDatas)
+            {
+                if (TB_UserName.Text == user.Username && TB_UserPW.Text == user.Password)
+                {
+                    FoodOrderWindow foodOrderWindow = new FoodOrderWindow();
+                    foodOrderWindow.FormClosed += (s, args) => this.Show();
+                    foodOrderWindow.Show();
+                    this.Hide();
+                    break;
+                }
+
+                else
+                {
+                    LB_UserErrorMessage.Text = "Hibás felhasználónév vagy jelszó!";
+                }                    
+            }
         }
     }
 }

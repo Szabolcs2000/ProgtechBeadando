@@ -37,6 +37,7 @@
             this.TB_AdminPW = new System.Windows.Forms.TextBox();
             this.TB_AdminName = new System.Windows.Forms.TextBox();
             this.BTN_AdminExit = new System.Windows.Forms.Button();
+            this.LB_ErrorMessage = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // LB_AdminWindowTitle
@@ -93,6 +94,7 @@
             this.BTN_AdminLogin.TabIndex = 12;
             this.BTN_AdminLogin.Text = "Belépés";
             this.BTN_AdminLogin.UseVisualStyleBackColor = true;
+            this.BTN_AdminLogin.Click += new System.EventHandler(this.BTN_AdminLogin_Click);
             // 
             // TB_AdminPW
             // 
@@ -118,11 +120,20 @@
             this.BTN_AdminExit.UseVisualStyleBackColor = true;
             this.BTN_AdminExit.Click += new System.EventHandler(this.BTN_AdminExit_Click);
             // 
+            // LB_ErrorMessage
+            // 
+            this.LB_ErrorMessage.AutoSize = true;
+            this.LB_ErrorMessage.Location = new System.Drawing.Point(323, 264);
+            this.LB_ErrorMessage.Name = "LB_ErrorMessage";
+            this.LB_ErrorMessage.Size = new System.Drawing.Size(0, 13);
+            this.LB_ErrorMessage.TabIndex = 18;
+            // 
             // AdminLoginWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.LB_ErrorMessage);
             this.Controls.Add(this.BTN_AdminExit);
             this.Controls.Add(this.BTN_User);
             this.Controls.Add(this.LB_User);
@@ -150,5 +161,6 @@
         private System.Windows.Forms.TextBox TB_AdminPW;
         private System.Windows.Forms.TextBox TB_AdminName;
         private System.Windows.Forms.Button BTN_AdminExit;
+        private System.Windows.Forms.Label LB_ErrorMessage;
     }
 }

@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminFoodEditWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFoodEditWindow.Designer.cs">
+      <DependentUpon>AdminFoodEditWindow.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminLoginWindow.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AdminLoginWindow.Designer.cs">
       <DependentUpon>AdminLoginWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodOrderWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodOrderWindow.Designer.cs">
+      <DependentUpon>FoodOrderWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="RegWindow.cs">
       <SubType>Form</SubType>
@@ -58,16 +70,6 @@
     <Compile Include="RegWindow.Designer.cs">
       <DependentUpon>RegWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="SoupTest.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SoupTest.Designer.cs">
-      <DependentUpon>SoupTest.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Soup\BeanSoup.cs" />
-    <Compile Include="Soup\BeanSoupFactory.cs" />
-    <Compile Include="Soup\ISoup.cs" />
-    <Compile Include="Soup\ISoupFactory.cs" />
     <Compile Include="UserLoginWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,8 +78,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
+    <EmbeddedResource Include="AdminFoodEditWindow.resx">
+      <DependentUpon>AdminFoodEditWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminLoginWindow.resx">
       <DependentUpon>AdminLoginWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodOrderWindow.resx">
+      <DependentUpon>FoodOrderWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -90,9 +99,6 @@
     </Compile>
     <EmbeddedResource Include="RegWindow.resx">
       <DependentUpon>RegWindow.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SoupTest.resx">
-      <DependentUpon>SoupTest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserLoginWindow.resx">
       <DependentUpon>UserLoginWindow.cs</DependentUpon>

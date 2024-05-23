@@ -39,6 +39,8 @@
             this.LB_RegEmail = new System.Windows.Forms.Label();
             this.TB_RegEmail = new System.Windows.Forms.TextBox();
             this.BTN_RegExit = new System.Windows.Forms.Button();
+            this.LB_RegPW2 = new System.Windows.Forms.Label();
+            this.TB_RegPW2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // BTN_RegUser
@@ -80,7 +82,7 @@
             // 
             // BTN_RegCreate
             // 
-            this.BTN_RegCreate.Location = new System.Drawing.Point(311, 276);
+            this.BTN_RegCreate.Location = new System.Drawing.Point(311, 324);
             this.BTN_RegCreate.Name = "BTN_RegCreate";
             this.BTN_RegCreate.Size = new System.Drawing.Size(75, 23);
             this.BTN_RegCreate.TabIndex = 20;
@@ -113,7 +115,7 @@
             // LB_RegEmail
             // 
             this.LB_RegEmail.AutoSize = true;
-            this.LB_RegEmail.Location = new System.Drawing.Point(192, 243);
+            this.LB_RegEmail.Location = new System.Drawing.Point(192, 279);
             this.LB_RegEmail.Name = "LB_RegEmail";
             this.LB_RegEmail.Size = new System.Drawing.Size(35, 13);
             this.LB_RegEmail.TabIndex = 25;
@@ -121,7 +123,7 @@
             // 
             // TB_RegEmail
             // 
-            this.TB_RegEmail.Location = new System.Drawing.Point(311, 240);
+            this.TB_RegEmail.Location = new System.Drawing.Point(311, 279);
             this.TB_RegEmail.Name = "TB_RegEmail";
             this.TB_RegEmail.Size = new System.Drawing.Size(134, 20);
             this.TB_RegEmail.TabIndex = 26;
@@ -136,11 +138,29 @@
             this.BTN_RegExit.UseVisualStyleBackColor = true;
             this.BTN_RegExit.Click += new System.EventHandler(this.BTN_RegExit_Click);
             // 
+            // LB_RegPW2
+            // 
+            this.LB_RegPW2.AutoSize = true;
+            this.LB_RegPW2.Location = new System.Drawing.Point(192, 240);
+            this.LB_RegPW2.Name = "LB_RegPW2";
+            this.LB_RegPW2.Size = new System.Drawing.Size(98, 13);
+            this.LB_RegPW2.TabIndex = 28;
+            this.LB_RegPW2.Text = "Jelszó mégegyszer:";
+            // 
+            // TB_RegPW2
+            // 
+            this.TB_RegPW2.Location = new System.Drawing.Point(311, 240);
+            this.TB_RegPW2.Name = "TB_RegPW2";
+            this.TB_RegPW2.Size = new System.Drawing.Size(134, 20);
+            this.TB_RegPW2.TabIndex = 29;
+            // 
             // RegWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.TB_RegPW2);
+            this.Controls.Add(this.LB_RegPW2);
             this.Controls.Add(this.BTN_RegExit);
             this.Controls.Add(this.TB_RegEmail);
             this.Controls.Add(this.LB_RegEmail);
@@ -172,5 +192,7 @@
         private System.Windows.Forms.Label LB_RegEmail;
         private System.Windows.Forms.TextBox TB_RegEmail;
         private System.Windows.Forms.Button BTN_RegExit;
+        private System.Windows.Forms.Label LB_RegPW2;
+        private System.Windows.Forms.TextBox TB_RegPW2;
     }
 }

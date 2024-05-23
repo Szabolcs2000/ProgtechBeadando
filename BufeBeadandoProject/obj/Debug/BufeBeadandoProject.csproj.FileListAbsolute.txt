@@ -2,7 +2,6 @@ D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBea
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.exe
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.pdb
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.AssemblyReference.cache
-D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.SuggestedBindingRedirects.cache
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.Properties.Resources.resources
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.GenerateResource.cache
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.CoreCompileInputs.cache
@@ -11,16 +10,5 @@ D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBea
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.UserLoginWindow.resources
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminLoginWindow.resources
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.RegWindow.resources
-D:\- Egyetem\Progtech\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.exe.config
-D:\- Egyetem\Progtech\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.exe
-D:\- Egyetem\Progtech\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.pdb
-D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.AssemblyReference.cache
-D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminLoginWindow.resources
-D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.Properties.Resources.resources
-D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.RegWindow.resources
-D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.UserLoginWindow.resources
-D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.GenerateResource.cache
-D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.CoreCompileInputs.cache
-D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.exe
-D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.pdb
-D:\- Egyetem\Progtech\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.SoupTest.resources
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.FoodOrderWindow.resources
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminFoodEditWindow.resources

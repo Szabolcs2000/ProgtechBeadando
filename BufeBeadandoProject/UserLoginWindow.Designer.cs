@@ -39,7 +39,7 @@
             this.LB_Admin = new System.Windows.Forms.Label();
             this.BTN_Admin = new System.Windows.Forms.Button();
             this.BTN_UserExit = new System.Windows.Forms.Button();
-            this.TestButtontoSoupTest = new System.Windows.Forms.Button();
+            this.LB_UserErrorMessage = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // LB_Cim
@@ -74,6 +74,7 @@
             this.BTN_UserLogin.TabIndex = 3;
             this.BTN_UserLogin.Text = "Belépés";
             this.BTN_UserLogin.UseVisualStyleBackColor = true;
+            this.BTN_UserLogin.Click += new System.EventHandler(this.BTN_UserLogin_Click);
             // 
             // LB_UserName
             // 
@@ -141,23 +142,21 @@
             this.BTN_UserExit.UseVisualStyleBackColor = true;
             this.BTN_UserExit.Click += new System.EventHandler(this.BTN_UserExit_Click);
             // 
-            // TestButtontoSoupTest
+            // LB_UserErrorMessage
             // 
-            this.TestButtontoSoupTest.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.TestButtontoSoupTest.Location = new System.Drawing.Point(665, 147);
-            this.TestButtontoSoupTest.Name = "TestButtontoSoupTest";
-            this.TestButtontoSoupTest.Size = new System.Drawing.Size(75, 23);
-            this.TestButtontoSoupTest.TabIndex = 11;
-            this.TestButtontoSoupTest.Text = "TestButtontoSoupTest";
-            this.TestButtontoSoupTest.UseVisualStyleBackColor = false;
-            this.TestButtontoSoupTest.Click += new System.EventHandler(this.button1_Click);
+            this.LB_UserErrorMessage.AutoSize = true;
+            this.LB_UserErrorMessage.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LB_UserErrorMessage.Location = new System.Drawing.Point(321, 270);
+            this.LB_UserErrorMessage.Name = "LB_UserErrorMessage";
+            this.LB_UserErrorMessage.Size = new System.Drawing.Size(0, 13);
+            this.LB_UserErrorMessage.TabIndex = 11;
             // 
             // UserLoginWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.TestButtontoSoupTest);
+            this.Controls.Add(this.LB_UserErrorMessage);
             this.Controls.Add(this.BTN_UserExit);
             this.Controls.Add(this.BTN_Admin);
             this.Controls.Add(this.LB_Admin);
@@ -170,7 +169,7 @@
             this.Controls.Add(this.TB_UserName);
             this.Controls.Add(this.LB_Cim);
             this.Name = "UserLoginWindow";
-            this.Text = "Form1";
+            this.Text = "UserLoginWindow";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -189,7 +188,7 @@
         private System.Windows.Forms.Label LB_Admin;
         private System.Windows.Forms.Button BTN_Admin;
         private System.Windows.Forms.Button BTN_UserExit;
-        private System.Windows.Forms.Button TestButtontoSoupTest;
+        private System.Windows.Forms.Label LB_UserErrorMessage;
     }
 }
 

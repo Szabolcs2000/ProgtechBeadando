@@ -15,6 +15,8 @@ namespace BufeBeadandoProject
         public RegWindow()
         {
             InitializeComponent();
+            TB_RegPW.UseSystemPasswordChar = true;
+            TB_RegPW2.UseSystemPasswordChar = true;
         }
 
         private static RegWindow instance;

@@ -13,9 +13,10 @@ namespace BufeBeadandoProject
     public partial class AdminLoginWindow : Form
     {
        
-        public AdminLoginWindow()        {
-          
+        public AdminLoginWindow(){
             InitializeComponent();
+            LB_ErrorMessage.Text = "aa";
+            TB_AdminPW.UseSystemPasswordChar = true;
         }
 
         private static AdminLoginWindow instance;
@@ -42,6 +43,22 @@ namespace BufeBeadandoProject
         private void BTN_AdminExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void BTN_AdminLogin_Click(object sender, EventArgs e)
+        {
+            if (TB_AdminName.Text == "Admin" && TB_AdminPW.Text == "1234")
+            {
+                AdminFoodEditWindow adminFoodEditWindow = new AdminFoodEditWindow();
+                adminFoodEditWindow.FormClosed += (s, args) => this.Show();
+                adminFoodEditWindow.Show();
+                this.Hide();
+            }
+                
+            else
+            {
+                LB_ErrorMessage.Text = "Hibás felhaszálónév vagy jelszó!";
+            }
         }
     }
 }
